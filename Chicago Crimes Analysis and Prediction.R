@@ -125,7 +125,7 @@ p<-ggplot(data=month, aes(x=Var1, y=Freq)) +
 #       x = "Crime Description", 
 #      y = "Total")
 #google map
-register_google(key="AIzaSyA55FTAeZeowOKyoyHjNYY7abicYg87_1I")
+#register_google(key="") need google API key 
 map <- ggmap(get_googlemap(center = "Chicago",
                            zoom = 12, scale = 2,
                            maptype ='terrain',
